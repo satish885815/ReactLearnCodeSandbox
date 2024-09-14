@@ -1,0 +1,16 @@
+#shap-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+}
+
+.selected {
+  background-color: green;
+}
